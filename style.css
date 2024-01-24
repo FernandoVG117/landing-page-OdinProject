@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'sans-serif';
+}
+
+body {
+    width: 100%;
+    height: 100%;   
+}
+
+/*NAVIGATION BAR - START*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: #1F2937;
+}
+
+h1 {
+    color: #E5E7EB;
+    font-size: 25px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+/*NAVIGATION BAR - END*/
+
+/*FIRST PART - START*/
+.awesome {
+    display: flex;
+    background: #1F2937;
+    color: #E5E7EB;
+}
+
+.container-left, .container-right {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.container-left button {
+    display: flex;
+    width: auto;
+    height: 25px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 15%;
+}
+
+.container-right img {
+    max-width: 75%;
+    max-height: 75%;
+    object-fit: contain;
+    border-radius: 7.5%;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 255, 0.358);
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*FIRST PAGE - END*/
+
+/*GALLERY ZONE - START*/
+.gallery-box {
+    display: flex;
+}
+
+.item {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.item img {
+    width: 75%;
+    height: 50%;
+border-radius: 8px;
+}
+
+.item p {
+    margin-top: 10px;
+}
+/*GALLERY ZONE - END */
+
+/*REFLEXION ZONE - START*/
+.reflection {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.box-text {
+    padding: 10%;
+}
+
+.box-text .boxtext1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.box-text .boxtext2 {
+    display: flex;
+    text-align: end;
+    justify-content: end;
+}
+/*REFLEXION ZONE - END */
+
+
+/*SING UP ZONE - START*/
+.singup-box {
+    padding: 0;
+    margin: 35px;
+}
+
+.box-call {
+    background-color: rgb(1, 200, 200);
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.text-left, .text-right {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+
+.text-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*SING UP ZONE - END */
+
+
+/*FOOT ZONE - START*/
+.foot {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.foot p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*FOOT SONE - END */
